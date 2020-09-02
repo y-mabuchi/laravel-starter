@@ -54,12 +54,12 @@ DB_PASSWORD=password
 
 ## App Keyを生成
 ```bash
-docker-compose exec app php artisan key:generate
+php artisan key:generate
 ```
 
 ## マイグレーション実行
 ```
-docker-compose exec app php artisan migrate
+php artisan migrate
 ```
 
 ## ブラウザで確認
