@@ -58,8 +58,13 @@ php artisan key:generate
 ```
 
 ## マイグレーション実行
-```
+```console
 php artisan migrate
+```
+
+## npmインストール
+```console
+npm install
 ```
 
 ## ブラウザで確認
