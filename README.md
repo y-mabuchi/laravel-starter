@@ -58,12 +58,12 @@ php artisan key:generate
 ```
 
 ## マイグレーション実行
-```console
+```bash
 php artisan migrate
 ```
 
 ## npmインストール
-```console
+```bash
 npm install
 ```
 
@@ -71,7 +71,7 @@ npm install
 [http://localhost](http://localhost)
 
 ## リモートリポジトリを変更
-```
+```bash
 git remote set-url origin {YOUR-NEW-REPOSITORY-URL}
 ```
 
